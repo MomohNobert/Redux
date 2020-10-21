@@ -1,7 +1,6 @@
 import { createStore } from 'redux'
-import cakeReducer from './cake/cake.reducer';
+import rootReducer from './rootReducer';
 
-
-const store = createStore(cakeReducer)
+const store = createStore(rootReducer)
 
 export default store
