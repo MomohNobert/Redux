@@ -12,9 +12,9 @@ function CakeContainer({ buyCake, numOfCakes }) {
     )
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = ({ cake }) => {
     return {
-        numOfCakes: state.numOfCakes
+        numOfCakes: cake.numOfCakes
     }
 }
 
